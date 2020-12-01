@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+
+        <div class="phone">
+            <img src="pictures/home_no_device.png" usemap="#workmap">
+        </div>
+
+        <div class="device">
+            <img src="pictures/device_off.png" id="device" onmousedown="mouseDown()" onmouseup="mouseUp()">
+        </div>
+
+        <map name="workmap">
+            <area shape="rect" coords="36,270,290,435" href="views/find_deviceNF_OFF.html">
+        </map>
+
+        <script>
+            function mouseDown() {
+                document.getElementById("device").src = "pictures/device_on.png";
+            }
+
+            function mouseUp() {
+                document.getElementById("device").src = "pictures/device_off.png";
+            }
+        </script>
+
+    </body>
+</html>
+
