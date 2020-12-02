@@ -1,7 +1,6 @@
 .phone {
     display: inline-block;
     margin-left: 300px;
-    border-style: dashed;
 }
 .phone > img {
     width: 75%;
@@ -10,7 +9,6 @@
 
 .device {
     display: inline-block;
-    border-style: dashed;
 }
 
 .device > img {
